@@ -19,6 +19,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "forkTypeChecker": false,
             "aot": true,
             "outputPath": "dist/sam-gov",
             "index": "src/index.html",
